@@ -12,7 +12,7 @@
 
     - else
       = link_to "Sign Up", new_user_path
-      = link_to "Sign In", signin_path
+      = link_to "Sign In", "/auth/google_oauth2"
 
     - flash.each do |name, msg|
       = content_tag :div, msg, class: name

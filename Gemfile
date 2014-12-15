@@ -32,10 +32,13 @@ gem "haml-rails"
 
 gem 'factory_girl_rails'
 
+gem 'omniauth'
+gem "omniauth-google-oauth2"
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.0'
   gem 'pry'
+  gem 'dotenv-rails'
 end
 
 
